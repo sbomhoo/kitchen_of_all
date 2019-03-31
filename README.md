@@ -20,6 +20,6 @@
 >    presentation-layer2.xml => user에 관련된 요청만 처리(*.userdo)  
 >    따라서 index, header , footer를 제외한 모든 jsp는 WEB-INF 밑에 각각 폴더로 정리해 놓음 
 > 2. 회원가입 폼에서 hibernate-validator를 이용해여 유효성 검사하도록 수정 
-> 3. getboardList.jsp => 사진 형식으로 바꿈  
+> 3. getboardList.jsp => 사진형List로 바꿈  
 > 4. css 적용 (index, 로그인폼, 회원가입 폼, 글리스트)
      
