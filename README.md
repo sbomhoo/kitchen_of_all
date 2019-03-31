@@ -6,7 +6,7 @@
 - 기능만 구현 ( 로그인, 회원가입, CRUD게시판 )
 
 ## KOA_ver2.zip
- - 패치 노트  
+ - 패치 노트 (3/30)
 >1. viewResolver추가  
 >2. 댓글 기능 추가  
 >3. 좋아요 기능 추가(Ajax로 구현)  
@@ -14,7 +14,7 @@
 
 
 ## KOA_ver3.zip
- - 패치 노트
+ - 패치 노트 (3/31)
 > 1. viewResolver 한개 더 사용을 위해 servlet-context.xml(=presentation-layer2.xml) 한 개 더 만듦   
 >    presentation-layer.xml => board에 관련된 요청만 처리(*.do)  
 >    presentation-layer2.xml => user에 관련된 요청만 처리(*.userdo)  
