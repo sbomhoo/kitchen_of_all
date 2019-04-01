@@ -1,7 +1,8 @@
 # 모두의 주방(Kitchen Of All)
  - 모두의 주방(SpringMVC + hibernate-validator + mybatis + oracleDB 를 이용한 레시피 공유 사이트)
  - 레시피 공유 사이트 , 해쉬 태그를 이용하여 가지고 있는 재료나 먹고 싶은 음식을 검색할 수 있다.
-
+ 
+***
 모두의 주방(Kitchen Of All) 구현 기능
 -------------
 -  로그인
@@ -19,12 +20,9 @@
 - Spring Framework 4.2.4.RELEASE
 - mybatis 3.4.6 /  mybatis-spring 1.3.2
 - hibernate-validator 4.2.0.Final
-- javaScript
-- EL / JSTL
-- w3.css
-- jquery Ajax
+- javaScript , EL / JSTL , w3.css , jquery Ajax
 
-
+***
 게시판 table db 쿼리문
 -------------
 <pre><code>
@@ -73,6 +71,67 @@ create sequence modu_comment_seq start with 1 increment by 1;
 </code></pre>
 
 
+***
+구현 화면
+-------------
+**<index.jsp>**  
+![이미지1001](./img/이미지1001.png)  
+  
+  
+**<로그인>**  
+![이미지1002](./img/이미지1002.png)  
+  
+    
+**<로그인 실패 시>**  
+![이미지1003](./img/이미지1003.png)    
+  
+**<회원 가입>**  
+![이미지1004](./img/이미지1004.png)    
+  
+**<회원 가입 실패시>**  
+ - hibernate-validator를 이용한 유효성 검증
+![이미지1005](./img/이미지1005.png)    
+
+   
+**<메인 페이지-게시판 리스트 상단>**  
+ - header와 footer를 만들어줬다.  
+ - 전체적으로 사진이 주가 될 수 있게 화면을 꾸몄음.  
+![이미지1006](./img/이미지1006.png)  
+  
+**<메인 페이지-게시판 리스트 하단>**  
+![이미지1007](./img/이미지1007.png)  
+  
+**<게시글 읽기>**  
+ - 인스타 느낌이 나게 만들었음 
+ - 해쉬태그를 통해 이따 검색을 함.
+ - jquery Ajax를 이용하여 화면 이동 없이 좋아요를 구현
+ - 댓글기능 
+ - 본인 글만 수정,삭제 버튼 보임
+ - 기타 사항: header와 footer있는데 사진에 다 안 담겨서 부분만 캡쳐한 거임, table 노가다 많이 함
+![이미지1009](./img/이미지1009.png)     
+ 
+   
+**<게시글 쓰기>**  
+ - simple is best
+ - 해쉬태그를 통해 이따 검색을 함.
+ - java script를 통해 모든 항목 입력 안되면 alert창 뜨게 구현
+ - 기타 사항: header와 footer있는데 사진에 다 안 담겨서 부분만 캡쳐한 거임
+![이미지1011](./img/이미지1011.png)     
+   
+   
+**<게시글 수정>**  
+ - simple is best
+ - 기타 사항: header와 footer있는데 사진에 다 안 담겨서 부분만 캡쳐한 거임
+![이미지1012](./img/이미지1012.png)     
+   
+**<검색 기능>**  
+ - index.jsp나 메인 페이지에 존재하는 검색창을 통해 검색을 한 결과  
+ - 사용자가 입력한 해쉬태그(#)를 select문 Like연산자를 이용하여 검색한다.
+ - 기타 사항: header와 footer있는데 사진에 다 안 담겨서 부분만 캡쳐한 거임
+![이미지1013](./img/이미지1013.png)     
+![이미지1014](./img/이미지1014.png)  
+
+***
 버전 관리
 -------------
 ### KOA_ver1.zip
