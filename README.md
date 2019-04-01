@@ -132,6 +132,16 @@ create sequence modu_comment_seq start with 1 increment by 1;
 ![이미지1014](./img/이미지1014.png)  
 
 ***
+프로젝트 마치며.. 느낀점
+-------------
+ - spring은 정말 어렵고 방대하다.. 아직 반도 모르는 거일텐데..
+ - 레이아웃 설정하는데 꽤 오래걸렸다.(특히 게시글 읽기)
+ - 그리고 viewResolver때문에 삽질 좀 했다.
+ - 그래도 덕분에 viewResolver 2개 만드는 법도 알고 (serlvet-context.xml 2개 만들어서) 나름 뿌듯했음..!
+ - 이제 진짜 원서내고 취준할거다. 힘내자 화이팅!
+    
+
+***
 버전 관리
 -------------
 ### KOA_ver1.zip
