@@ -11,6 +11,7 @@
 -  글 입력시 사진 업로드
 -  댓글 입력
 -  좋아요 구현(Jquery Ajax 사용)
+-  소셜 로그인 기능 (구글, 페이스북 ,네이버)
 
 개발 환경 및 기술
 -------------
@@ -130,6 +131,11 @@ create sequence modu_comment_seq start with 1 increment by 1;
  - 기타 사항: header와 footer있는데 사진에 다 안 담겨서 부분만 캡쳐한 거임
 ![이미지1013](./img/이미지1013.png)     
 ![이미지1014](./img/이미지1014.png)  
+
+**<소셜 로그인 기능>**  
+- 구글, 네이버 , 페이스북 api를 이용하여 소셜 로그인 기능 구현
+- 페이스북 같은 경우에는 https 만 지원해서 이클립스 톰캣 서버 SSL 과정이 필요!
+![social_login](./img/social_login.png)     
 
 ***
 프로젝트 마치며.. 느낀점
