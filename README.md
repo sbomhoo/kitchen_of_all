@@ -22,6 +22,7 @@
 - mybatis 3.4.6 /  mybatis-spring 1.3.2
 - hibernate-validator 4.2.0.Final
 - javaScript , EL / JSTL , w3.css , jquery Ajax
+- NAVER API , Google API , Facebook API
 
 ***
 게시판 table db 쿼리문
