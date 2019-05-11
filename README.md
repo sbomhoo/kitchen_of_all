@@ -22,7 +22,7 @@
 - mybatis 3.4.6 /  mybatis-spring 1.3.2
 - hibernate-validator 4.2.0.Final
 - javaScript , EL / JSTL , w3.css , jquery Ajax
-- NAVER API , Google API , Facebook API
+- NAVER API (네아로) , Google API (person) , Facebook API
 
 ***
 게시판 table db 쿼리문
@@ -134,8 +134,11 @@ create sequence modu_comment_seq start with 1 increment by 1;
 ![이미지1014](./img/이미지1014.png)  
 
 **<소셜 로그인 기능>**  
-- 구글, 네이버 , 페이스북 api를 이용하여 소셜 로그인 기능 구현
+- 구글, 네이버(네아로) , 페이스북 api를 이용하여 소셜 로그인 기능 구현
 - 페이스북 같은 경우에는 https 만 지원해서 이클립스 톰캣 서버 SSL 과정이 필요!
+- oauth2.0 을 통해 인증을 받고 code를 받은 뒤 code,lient id, client secrtet을 AccessToken과 다시 교환 
+- AccessToken을 통해 API를 이용한다 (사용자 정보를 가져온다)
+- 사용자 정보는 JSON형식으로 되어있는데 이를 파싱하여 변수에 집어 넣고 session을 만든다. 
 ![social_login](./img/social_login.png)     
 
 ***
