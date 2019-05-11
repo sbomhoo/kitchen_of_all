@@ -176,4 +176,5 @@ create sequence modu_comment_seq start with 1 increment by 1;
  - 패치 노트 (4/1)
 > 1. 프로젝트 최종본 
 > 2. CSS 모두 적용 
-> (5/11) 소셜 
+> (5/11) 소셜 로그인 기능 추가   
+
