@@ -173,8 +173,8 @@ create sequence modu_comment_seq start with 1 increment by 1;
 > 4. css 적용 (index, 로그인폼, 회원가입 폼, 글리스트)
      
 ### KOA_final.zip
- - 패치 노트 (4/1)
-> 1. 프로젝트 최종본 
-> 2. CSS 모두 적용  
+ - 패치 노트  
+> 1. (4/1)프로젝트 최종본 
+> 2. (4/1)CSS 모두 적용  
 > 3. (5/11) 소셜 로그인 기능 추가   
 
